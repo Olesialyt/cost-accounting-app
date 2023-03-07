@@ -1,5 +1,5 @@
-// import CostItem from "./components/CostItem";
-import ContentItem from "./components/ContentItem";
+import ContentItem from "./components/Costs/ContentItem";
+import NewCost from "./components/NewCost/NewCost";
 
 function App() {
   const costs = [
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <h1>I dont believe you</h1>
+      <NewCost />
       <ContentItem costs={costs} />
     </div>
   );
